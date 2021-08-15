@@ -1,0 +1,184 @@
+<!--INTERNAL-->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.flex-container{
+  display: flex;
+  align-items: stretch;
+  background-color: white;
+}
+
+.mid-container{
+  display: flex;
+  align-items: stretch;
+  background-color:#EDF7FA;
+}
+
+.flex-container > div {
+  
+  color: white;
+  margin: 5px;
+  text-align: left;
+  padding-left: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+ /* line-height: 75px;*/
+  font-size: 30px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.mid-container > div {
+  
+  margin: 5px;*/
+  text-align: left;
+ /* padding-left: 10%;
+ /* padding-top: 5%;*/
+  padding-bottom: 5%;
+ /* line-height: 75px;*/
+  font-size: 15px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.grid-container {
+  display: grid;
+ /* grid-column-gap: 50px;*/
+  grid-template-columns: 400px auto ;
+ /* background-color: #2196F3;*/
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+ /*border: 1px solid rgba(0, 0, 0, 0.8);*/
+  padding: 0px;
+ 
+/*  font-size: 30px;
+  text-align: center;*/
+}
+
+.footer{
+  position: absolute;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 40%;
+  margin-bottom: 50px;
+  padding-bottom: 10%;
+}
+
+</style>
+<!--<link rel="stylesheet" href="styles.css">-->
+</head>
+<body>
+<!--Flexbox-->
+<div class="flex-container">
+  <div style="flex-grow: 2; color: black;">
+    <p style="line-height: 0px;">RADATUNNAZRIAH</p>
+    <p style="line-height: 0px;" >Business Analyst</p>
+    <p style="font-size: 15px; font-style: italic; width: 497px;">Iam  Radatunnazriah.  I  am  a  computer  engineering  graduate  with  knowledge  
+      of  software, hardware  and  networking.  I  have  a  passion  in  the  fields  of  
+      data  analysis,  web  design,  databases and  networking.  I  have  a  lot  of  experience  
+      during  college,  both  honing  hard  skills  and  soft  skills. motivated to continuously  
+      develop skills and grow professionally.</p>
+  </div>
+  <div style="flex-grow: 2; margin-left: 0px; padding-left: 0px;" >
+    <img style="width:243px;height:243px; border-radius: 50%;top: 110px;" src="rada.jpg" alt="resume profile">
+  </div>
+</div>
+
+<!--Layout tengah-->
+
+<div class="mid-container">
+  <div style="flex-grow: 1; padding-left: 10%;">
+    <b style="color:#136223;">CONTACT</b></br>
+  </br>
+    <p>
+      <img src="kontak (1).png" alt="" style="color: black;"> 0813 1547 7812
+    </p>
+    <p>
+      <img src="gmail.png" alt="" style="color: black;"> radatunn1@gmail.com
+    </p>
+    <p>
+      <img src="alamat.png" alt="" style="color: black;"> Suka jaya, Muara Bungo, Jambi
+    </p>
+    <p>
+      <img src="map.png" alt="" style="color: black;"> Duri kosambi, Cengkareng, Jakarta Barat
+    </p>
+  </div>
+  <div style="flex-grow: 1;">
+    <b style="padding-left: 5px; line-height: 10px; color:#136223;">EDUCATION</b> </br>
+  </br>
+    <p style="padding-left: 5px; ">University IPB</p>
+    <p style="font-style: italic; font-size: 15px;padding-left: 5px;line-height: 0px;">Computer Engineering &nbsp &nbsp Aug 2017 - Sep 2020 </p>
+    <p style="padding-left: 5px;line-height: 0px;">
+      <li style="padding-left: 10px;line-height: 0px;">Secretary  of  Computer Engineering  Departement. </li>
+    </p>
+  </br>
+    <p style="padding-left: 5px; line-height: 20px;">SMAN 1 Muara Bungo</p>
+    <p style="font-style: italic; font-size: 15px;padding-left: 5px; line-height: 0px;" >Mathematicsand Natural Sciences (MIPA) Major &nbsp &nbsp 2014</p>
+    <p style="padding-left: 5px; line-height: 0px;">
+      <li style="padding-left: 10px; line-height: 0px;">Secretary of class</li>
+    </p>
+  </div>
+</div>
+
+<!--MID 2-->
+</br>
+<b style="padding-left: 10%;padding-bottom:0px; line-height: 10px;color: #136223;">PROJECT/EXPERIENCE</b>
+</br>
+<p></p>
+
+<div class="grid-container">
+  <div class="grid-item">
+    <img src="analis.jpg" alt="" style="width: 246px;height: 180px;  padding-left: 100px; border-radius: 6px;">
+  </div>
+  <div class="grid-item">
+    <p style="width: 700px; font-size: 30px;line-height: 0px; padding-top: 0px;">Business Analyst</p>
+    <p style="color: gray;"><span style="background-color: #142850; border-radius: 6px; width: 62px;height: 25px;color: #f1f1f1;">2021</span> &nbsp;&nbsp;&nbsp;Analyst</p>
+    <p style="width:594px;font-size: 12px;">Bekerja disebuah perusahaan yang bergerak dibidang teknologi dan menjabat sebagai business analyst, jobdesk adalah merancang dan menganalisis
+       rencana bisnis klient.</p>
+  </div>  
+</div>
+<hr color="#E0E0E0">
+
+<div class="grid-container">
+  <div class="grid-item">
+    <img src="jaringan.jpg" alt="" style="width: 246px;height: 180px; border-radius: 6px; padding-left: 100px;">
+  </div>
+  <div class="grid-item">
+    <p style="width: 700px; font-size: 30px;line-height: 0px; padding-top: 0px;">Wireless Distribution System</p>
+    <p style="color: gray;"><span style="background-color: #142850; border-radius: 6px; width: 62px;height: 25px;color: #f1f1f1;">2020</span> &nbsp;&nbsp;&nbsp;Networking</p>
+    <p style="width:594px;font-size: 12px;">WDS adalah sebuah system perluasan jangkauan jaringan wireless IEEE 802.11 yang dapat membangun infrastruktur wireless dengan menggunakan
+       dua atau lebih access point tanpa harus membangun backbone kabel jaringan sehingga dapat menghemat biaya.</p>
+</div>
+</div>
+<hr color="#E0E0E0">
+
+<div class="grid-container">
+  <div class="grid-item" >
+    <img src="aa.jpg" alt="" style="width: 246px;height: 180px; border-radius: 6px;  padding-left: 100px;">
+  </div>
+  <div class="grid-item">
+    <p style="width: 700px; font-size: 30px;line-height: 0px; padding-top: 0px;">Design Dashboard Website</p>
+    <p style="color: gray;"><span style="background-color: #142850; border-radius: 6px; width: 62px;height: 25px;color: #f1f1f1;">2018</span> &nbsp;&nbsp;&nbsp;Dashboard</p>
+    <p style="width:594px;font-size: 12px;">Projek pembuatan design dashboard pada tugas akhir praktikum web. Untuk membantu pemerintah dalam mengatasi kemacetan, 
+      dibuatlah suatu aplikasi yang dapat memonitoring atau aplikasi yang bias menampilkan 
+      daerah mana yang memiliki kepadatan kendaraan</p>
+  </div>  
+</div>
+
+<hr color="#E0E0E0">
+
+<div class="footer">
+  <img src="fb.png" alt=""> &nbsp;&nbsp;&nbsp;
+  <img src="32x32.png" alt=""> &nbsp;&nbsp;&nbsp;
+  <img src="Vector (1).png" alt=""> &nbsp;&nbsp;&nbsp;
+  <img src="Linkedin.png" alt=""> &nbsp;&nbsp;&nbsp;
+  <div style="line-height: 30px;">
+    <img src="Copyright ©2020 All rights reserved.png" alt="">
+  </div>
+</div>
+
+</body>
+</html>
